@@ -6,9 +6,12 @@ __human_name__ = 'comments'
 leek_price = 2
 leeks = "leek 4"
 sum_total = int(leeks[5]) * leek_price
-print("Leek is " + str(leek_price) + " euro per kilo.")
+
 
 broccoli_price = 2.34
 broccoli_order = 1.6
 brocco_total = round(broccoli_price * broccoli_order, 2)
+
+print(sum_total)
+print("Leek is " + str(leek_price) + " euro per kilo.")
 print(str(broccoli_order) + " broccoli costs " + str(brocco_total) +"e")
